@@ -1,124 +1,112 @@
-= Keycloak: Gestion de l'identité et des accès dans une architecture micro-services  
+= Git : brève sur le SCM le plus populaires
+Benjamin Garcia - BBL CA janvier 2019
 :imagesdir: images
 :source-highlighter: highlightjs
 //beige, black, league, night, serif, simple, sky, solarized, white
-:revealjs_theme: solarized
+:revealjs_theme: moon 
 //none, fade, slide, convex, concave, zoom
-:revealjs_transition: convex
+:revealjs_transition: slide 
 :icons: font
 :revealjs_slideNumber: true
 
-== Clement Compas
 
-image::ccompas.png[]
 
-* icon:tags[]: Lead developer
-** icon:building[]: Tellmeplus (since 2015)
-** icon:wrench[]: Data & ML
+== Rappel : Les adversaires
 
-=== Benjamin Garcia
+* CVS
+* SVN
+* ClearCase
+* Mercurial
+* Bazar
+
+=== Centralisé
+
+image::centralized.png[]
+
+=== Distribué
+
+image::distributed.png[distributed,450]
+
+
+== Benjamin Garcia
 
 image::benji.png[]
 
 * icon:tags[]: Senior developer
 ** icon:building[]: Tellmeplus (since 2017)
 ** icon:briefcase[]: JUG Leader
+** icon:briefcase[]: Montpellier Tech Hub member
 
-[%notitle]
-== TellMePlus
+== Les flows
 
-image::tellmeplus.png[tmp, 300]
+image::palavas.jpg[]
 
-== Quelques définitions
 
-[%step]
-* OAuth 2
-[%step]
-** Resource owner
-** Resource server
-** Client application
-** Autorization server
-* JWT
-* OIDC
+=== git flow
 
-=== OAuth 2
+image::gitflow.png[]
 
-image::oauth.png[]
+=== github flow
 
-[%notitle,background-iframe="https://jwt.io/#debugger-io"]
-=== JWT
+image::githubflow.png[]
 
-//image::jwt.jpg[jwt, 300]
+[background-image="freshPrince.png"]
+=== rebase flow
 
-=== OIDC
 
-== L'ancienne sécurité
+== Les états des fichiers
 
 [%step]
-* Basic auth
-* Isolation par la base de donnée
-* Gestion des utilisateurs en internes 🙈
-* Pas de SSO 😢
-* Pas de délegation d'auth 😭
+* unstage
+* stage
+* commit
+* stash
 
-== La transformation en micro service 
-
-=== Monolith
-
-image::oldFlow.svg[]
-
-=== Services
-
-image::newFlow.svg[]
-
-== Keycloak Vs Hydra
-
-[%notitle]
-=== Hydra
-
-image::hydra_red.png[hydra, 200]
-[%step]
-* SDK en go, js, ...
-* Nécessite des outils supplémentaire:
-[%step]
-** ORY Oauthkeeper (proxy)
-** ORY Security Console (GUI)
-** ORY Keto (contrôle d'accès)
-
-[%notitle]
-=== Keycloak
-
-image::keycloak_icon.png[keycloak, 200]
-[%step]
-* SDK pour jvm, springboot, js, go
-* GUI / CLI
-* Proxy google/facebook....
-* Contrôle d'accès
-
-== Mise en pratique
+== Les états du dépot
 
 [%step]
-* Délégation des utilisateurs
-* Intégration à l'application
-* Access token
-* Offline token
+* upstream
+* state
+* pull
+* push
 
-=== Multitenants
+[background-image="freshPrince.png"]
+== Rebase
+
+=== Rebase interactive
 
 [%step]
-* Pourquoi ?
-* Les Realms
-* Plomberie 🔧
+* squash/fixup
+* amend
+* drop
+* reorder
+
+== Let's play! 
+
+image::play.jpg[lego, 500]
+
+== Pour aller plus loin
+
+* fixUp
+* bisect
+
+== Quelques outils
+
+=== Shells
+
+** zsh & OhMyZsh & agnoster/alien
+** fish & OhMyFish & bobthefish
+** bash & bash-it
+
+=== UI
+
 [%step]
-** La configuration
-** Les routes
-** Les adapteurs
+** sourceTree
+** Gitkracken
+** smartGit
+** Tower
 
 == Conclusion 🤔
 
 == Question & Référence
 
-* https://www.keycloak.org[keycloak]
-* https://github.com/ory/hydra[Hydra]
-* https://www.ory.sh/[ORY]
-* https://openid.net/connect/[OIDC]
