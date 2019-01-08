@@ -1,4 +1,4 @@
-= Git : brève sur le SCM le plus populaires
+= Git : brève sur le SCM le plus populaire
 Benjamin Garcia - BBL CA janvier 2019
 :imagesdir: images
 :source-highlighter: highlightjs
@@ -9,7 +9,14 @@ Benjamin Garcia - BBL CA janvier 2019
 :icons: font
 :revealjs_slideNumber: true
 
+== Benjamin Garcia
 
+image::benji.png[]
+
+* icon:tags[]: Senior developer
+** icon:building[]: Tellmeplus (since 2017)
+** icon:briefcase[]: JUG Leader
+** icon:briefcase[]: Montpellier Tech Hub member
 
 == Rappel : Les adversaires
 
@@ -28,15 +35,6 @@ image::centralized.png[]
 image::distributed.png[distributed,450]
 
 
-== Benjamin Garcia
-
-image::benji.png[]
-
-* icon:tags[]: Senior developer
-** icon:building[]: Tellmeplus (since 2017)
-** icon:briefcase[]: JUG Leader
-** icon:briefcase[]: Montpellier Tech Hub member
-
 == Les états des fichiers
 
 [%step]
@@ -52,6 +50,15 @@ image::benji.png[]
 * state
 * pull
 * push
+
+== Et maintenant on fait quoi?
+
+[%step]
+* commit
+* reset
+* branch
+* merge
+* rebase
 
 == Rebase
 
@@ -71,7 +78,7 @@ image::play.jpg[lego, 500]
 
 == Les flows
 
-image::flow.jpg[flow, 700]
+image::palavas.jpg[flow, 700]
 
 === git flow
 
@@ -88,7 +95,7 @@ image::brewflow.png[]
 
 == Pour aller plus loin
 
-* fixUp
+* fixup
 * bisect
 * --force-with-lease
 
