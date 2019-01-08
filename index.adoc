@@ -37,23 +37,6 @@ image::benji.png[]
 ** icon:briefcase[]: JUG Leader
 ** icon:briefcase[]: Montpellier Tech Hub member
 
-== Les flows
-
-image::palavas.jpg[]
-
-
-=== git flow
-
-image::gitflow.png[]
-
-=== github flow
-
-image::githubflow.png[]
-
-[background-image="freshPrince.png"]
-=== rebase flow
-
-
 == Les états des fichiers
 
 [%step]
@@ -70,8 +53,9 @@ image::githubflow.png[]
 * pull
 * push
 
-[background-image="freshPrince.png"]
 == Rebase
+
+image::freshPrince.png[freshPrince, 650]
 
 === Rebase interactive
 
@@ -85,10 +69,28 @@ image::githubflow.png[]
 
 image::play.jpg[lego, 500]
 
+== Les flows
+
+image::flow.jpg[flow, 700]
+
+=== git flow
+
+image::gitflow.png[]
+
+=== github flow
+
+image::githubflow.png[]
+
+=== rebase flow
+
+image::brewflow.png[]
+
+
 == Pour aller plus loin
 
 * fixUp
 * bisect
+* --force-with-lease
 
 == Quelques outils
 
