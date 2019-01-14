@@ -1,13 +1,15 @@
-= Git : brève sur le SCM le plus populaire
+= image:Git-Logo.png[git, 400] : brève sur le SCM le plus populaire
 Benjamin Garcia - BBL CA janvier 2019
 :imagesdir: images
 :source-highlighter: highlightjs
 //beige, black, league, night, serif, simple, sky, solarized, white
 :revealjs_theme: moon 
 //none, fade, slide, convex, concave, zoom
-:revealjs_transition: slide 
+:revealjs_transition: concave 
 :icons: font
-:revealjs_slideNumber: true
+:revealjs_slideNumber: false 
+:customcss: mine.css
+
 
 == Benjamin Garcia
 
@@ -35,69 +37,72 @@ image::centralized.png[]
 image::distributed.png[distributed,450]
 
 
-== Les états des fichiers
+//== Les états des fichiers
 
-[%step]
-* unstage
-* stage
-* commit
-* stash
+//[%step]
+//* unstage
+//* stage
+//* commit
+//* stash
 
-== Les états du dépot
+//== Les états du dépot
 
-[%step]
-* upstream
-* state
-* pull
-* push
+//[%step]
+//* upstream
+//* state
+//* pull
+//* push
 
-== Et maintenant on fait quoi?
+//== Et maintenant on fait quoi?
 
-[%step]
-* commit
-* reset
-* branch
-* merge
-* rebase
+//[%step]
+//* commit
+//* reset
+//* branch
+//* merge
+//* rebase
 
-== Rebase
+//== Rebase
 
-image::freshPrince.png[freshPrince, 650]
+//image::freshPrince.png[freshPrince, 650]
 
-=== Rebase interactive
+//=== Rebase interactive
 
-[%step]
-* squash/fixup
-* amend
-* drop
-* reorder
+//[%step]
+//* squash/fixup
+//* amend
+//* drop
+//* reorder
 
 == Let's play! 
 
 image::play.jpg[lego, 500]
 
-== Les flows
+//== Les flows
 
-image::palavas.jpg[flow, 700]
+//image::palavas.jpg[flow, 700]
 
-=== git flow
+//=== git flow
 
-image::gitflow.png[]
+//image::gitflow.png[]
 
-=== github flow
+//=== github flow
 
-image::githubflow.png[]
+//image::githubflow.png[]
 
-=== rebase flow
+//=== rebase flow
 
-image::brewflow.png[]
+//image::brewflow.png[]
 
 
 == Pour aller plus loin
 
-* fixup
-* bisect
-* --force-with-lease
+* `rebase`
+* `bisect`
+* `alias`
+* `.gitconfig`
+* `.gitignore`
+* les flows
 
 == Quelques outils
 
@@ -109,7 +114,6 @@ image::brewflow.png[]
 
 === UI
 
-[%step]
 ** sourceTree
 ** Gitkracken
 ** smartGit
@@ -117,5 +121,5 @@ image::brewflow.png[]
 
 == Conclusion 🤔
 
-== Question & Référence
+== Question 
 
