@@ -5,7 +5,7 @@ Benjamin Garcia - BBL CA janvier 2019
 //beige, black, league, night, serif, simple, sky, solarized, white
 :revealjs_theme: moon 
 //none, fade, slide, convex, concave, zoom
-:revealjs_transition: concave 
+:revealjs_transition: convex 
 :icons: font
 :revealjs_slideNumber: false 
 :customcss: mine.css
@@ -20,13 +20,7 @@ image::benji.png[]
 ** icon:briefcase[]: JUG Leader
 ** icon:briefcase[]: Montpellier Tech Hub member
 
-== Rappel : Les adversaires
-
-* CVS
-* SVN
-* ClearCase
-* Mercurial
-* Bazar
+== Gestion de version 
 
 === Centralisé
 
@@ -106,12 +100,6 @@ image::play.jpg[lego, 500]
 
 == Quelques outils
 
-=== Shells
-
-** zsh & OhMyZsh & agnoster/alien
-** fish & OhMyFish & bobthefish
-** bash & bash-it
-
 === UI
 
 ** sourceTree
@@ -119,7 +107,11 @@ image::play.jpg[lego, 500]
 ** smartGit
 ** Tower
 
-== Conclusion 🤔
+=== Shells
 
-== Question 
+** zsh & OhMyZsh & agnoster/alien
+** fish & OhMyFish & bobthefish
+** bash & bash-it
+
+== Conclusion 🤔
 
