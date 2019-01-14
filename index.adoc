@@ -113,5 +113,5 @@ image::play.jpg[lego, 500]
 ** fish & OhMyFish & bobthefish
 ** bash & bash-it
 
-== Conclusion 🤔
+== Conclusion 
 
