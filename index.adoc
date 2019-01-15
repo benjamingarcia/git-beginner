@@ -112,7 +112,7 @@ image::play.jpg[lego, 500]
 ** smartGit
 ** Tower
 
-== Pourquoi migrer et comment?
+=== Pourquoi migrer et comment ?
 
 == Conclusion 
 
