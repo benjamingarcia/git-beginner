@@ -72,6 +72,9 @@ image::distributed.png[distributed,450]
 
 image::play.jpg[lego, 500]
 
+=== demo
+
+https://asciinema.org/a/7m3CxqQWgpG1Kzmu115t5eDvS
 //== Les flows
 
 //image::palavas.jpg[flow, 700]
