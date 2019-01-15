@@ -92,13 +92,18 @@ image::play.jpg[lego, 500]
 == Pour aller plus loin
 
 * `rebase`
-* `bisect`
-* `alias`
 * `.gitconfig`
+* `alias`
 * `.gitignore`
 * les flows
 
 == Quelques outils
+
+=== Shells
+
+** zsh & OhMyZsh & agnoster/alien
+** fish & OhMyFish & bobthefish
+** bash & bash-it
 
 === UI
 
@@ -107,11 +112,7 @@ image::play.jpg[lego, 500]
 ** smartGit
 ** Tower
 
-=== Shells
-
-** zsh & OhMyZsh & agnoster/alien
-** fish & OhMyFish & bobthefish
-** bash & bash-it
+== Pourquoi migrer et comment?
 
 == Conclusion 
 
